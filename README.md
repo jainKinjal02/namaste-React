@@ -18,3 +18,35 @@
 -  HTTPS is also provided
 -Tree shaking - remove unused code 
 - Different dev and production bundles
+
+Food ordering APP :
+
+ Header
+  - Logo 
+  - Nav Items
+
+ Body
+  - Search Input
+  - RestaurantContainer
+    -Restaurnt card
+        -image
+        -name of reaturant
+        -star rating, cuisine, delivery time
+
+ Footer
+  - copyright
+  - Links
+  - Contact
+
+     <!--RestaurantCard restName='KFC' cuisine="Pasta, Mexican" rating='4.2 stars' delTime='28 minutes'
+                 imgSrc='https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_628,h_704/TopPicks/CCWMeal'/>
+
+Two types of Export/Import
+
+-Default
+    export default Header;
+    import Header from 'path';
+
+-Named
+    export const Header;
+    import { Header } from 'path';

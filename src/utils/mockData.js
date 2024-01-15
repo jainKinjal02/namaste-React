@@ -1,47 +1,3 @@
-import React  from 'react';
-import ReactDOM from 'react-dom/client';
-
-/* 
- Header
-  - Logo 
-  - Nav Items
-
- Body
-  - Search Input
-  - RestaurantContainer
-    -Restaurnt card
-        -image
-        -name of reaturant
-        -star rating, cuisine, delivery time
-
- Footer
-  - copyright
-  - Links
-  - Contact
-
-     <!--RestaurantCard restName='KFC' cuisine="Pasta, Mexican" rating='4.2 stars' delTime='28 minutes'
-                 imgSrc='https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_628,h_704/TopPicks/CCWMeal'/>
-*/
-
-const Header = () => {
-    return (
-        <div className='header'>
-            <div className='logo-conatiner'>
-                <img className='logo' src='https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png'></img>
-            </div>
-            <div className='nav-items'>
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-    )
-}
-
-
 const swiggyArray = [
     {
         "card": {
@@ -61,7 +17,7 @@ const swiggyArray = [
                         "Seafood",
                         "Beverages"
                     ],
-                    "avgRating": 4.3,
+                    "avgRating": 3.3,
                     "parentId": "20972",
                     "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
@@ -1451,45 +1407,5 @@ const swiggyArray = [
         }
     }
 ]
-const RestaurantCard = (props) => {
-    const {resData} = props;
 
-    const {info} = resData.card.card;
-    return (
-        <div className='res-card' style={{backgroundColor: "#f0f0f0"}}>
-            <img className="res-logo" alt='Truffles' src={'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/'
-                    +info.cloudinaryImageId}></img>
-            <h3>{info.name}</h3>
-            <h4>{info.cuisines.join(', ')}</h4>
-            <h5>{info.costForTwo}</h5>
-            <h5>{info.avgRatingString} stars</h5>
-            <h5>{info.sla.slaString}</h5>
-        </div>
-    )
-}
-
-const Body = () => {
-    return (
-        <div className='body'>
-            <div className='search'>Search</div>
-            <div className='res-container'>
-                {
-                    swiggyArray.map((resobj) => <RestaurantCard key={resobj.card.card.info.id} resData={resobj}/>)
-                }
-            </div>
-        </div>
-    )
-}
-
-const AppLayout = () => {
-    return (
-        <div className='app'>
-           <Header/>
-           <Body/>
-        </div>
-    )
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(<AppLayout/>);
+export default swiggyArray;
