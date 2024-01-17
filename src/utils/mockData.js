@@ -1,1411 +1,759 @@
 const swiggyArray = [
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "132930",
-                    "name": "Sangam Mess",
-                    "cloudinaryImageId": "it1t0ccxhlko4a1bpjg0",
-                    "locality": "Chinnappa Layout",
-                    "areaName": "Kammanahalli/Kalyan Nagar",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                        "Kerala",
-                        "South Indian",
-                        "Biryani",
-                        "Seafood",
-                        "Beverages"
-                    ],
-                    "avgRating": 3.3,
-                    "parentId": "20972",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10482617~p=5~eid=0000018c-ed5c-80f1-4a4a-dc72001a053a~srvts=1704789311729~83645",
-                    "sla": {
-                        "deliveryTime": 35,
-                        "lastMileTravel": 6.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35 mins",
-                        "lastMileTravelString": "6.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 22:30:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=132930&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
+      "info": {
+        "id": "271",
+        "name": "Meghana Foods",
+        "cloudinaryImageId": "sotxv0gury7f7vrfvb2r",
+        "locality": "Indiranagar",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Biryani",
+          "Andhra",
+          "South Indian",
+          "Chinese",
+          "Seafood"
+        ],
+        "avgRating": 4.5,
+        "parentId": "635",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 21,
+          "lastMileTravel": 0.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "21 mins",
+          "lastMileTravelString": "0.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-17 01:30:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/meghana-foods-indiranagar-bangalore-271",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "56497",
-                    "name": "Maravanthe",
-                    "cloudinaryImageId": "v06l1tgc4eay4e43wwxu",
-                    "locality": "CMH Road",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹800 for two",
-                    "cuisines": [
-                        "Seafood",
-                        "Mangalorean",
-                        "Coastal",
-                        "Biryani",
-                        "South Indian",
-                        "Indian",
-                        "Thalis"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "7368",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "5K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10482585~p=6~eid=0000018c-ed5c-80f1-4a4a-dc73001a066b~srvts=1704789311729~83645",
-                    "sla": {
-                        "deliveryTime": 23,
-                        "lastMileTravel": 0.8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "23 mins",
-                        "lastMileTravelString": "0.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 15:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=56497&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
+      "info": {
+        "id": "457308",
+        "name": "Bakingo",
+        "cloudinaryImageId": "05994df0e49725bd230146c320b8f7aa",
+        "locality": "New Thipasandra",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Bakery",
+          "Desserts",
+          "Beverages",
+          "Snacks"
+        ],
+        "avgRating": 4.4,
+        "parentId": "3818",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 22,
+          "lastMileTravel": 1.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "22 mins",
+          "lastMileTravelString": "1.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-17 01:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/bakingo-new-thipasandra-indiranagar-bangalore-457308",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "248",
-                    "name": "New Punjabi Hotel",
-                    "cloudinaryImageId": "czxysv7y2rlbbyuvcivn",
-                    "locality": "2nd stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "North Indian",
-                        "Punjabi",
-                        "Tandoor",
-                        "Chinese"
-                    ],
-                    "avgRating": 4.1,
-                    "parentId": "1764",
-                    "avgRatingString": "4.1",
-                    "totalRatingsString": "10K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10482522~p=8~eid=0000018c-ed5c-80f1-4a4a-dc75001a081a~srvts=1704789311729~83645",
-                    "sla": {
-                        "deliveryTime": 18,
-                        "lastMileTravel": 1.2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "18 mins",
-                        "lastMileTravelString": "1.2 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 15:45:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=248&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "15898",
+        "name": "Mani's Dum Biryani",
+        "cloudinaryImageId": "lufqwcvjqllfw24ab82x",
+        "locality": "Jeevan Bhima Nagar",
+        "areaName": "Jeevan Bhima Nagar",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Andhra",
+          "Biryani",
+          "North Indian"
+        ],
+        "avgRating": 4.5,
+        "parentId": "623",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 22,
+          "lastMileTravel": 1.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "22 mins",
+          "lastMileTravelString": "1.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-16 23:45:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
             }
-        }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/manis-dum-biryani-jeevan-bhima-nagar-bangalore-15898",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "241",
-                    "name": "Anjappar",
-                    "cloudinaryImageId": "fa25f646f0f18e7b1d854e3e8b4a8f1b",
-                    "locality": "Indiranagar",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹600 for two",
-                    "cuisines": [
-                        "Chettinad",
-                        "Thalis",
-                        "Biryani",
-                        "Chinese",
-                        "Tandoor",
-                        "South Indian",
-                        "North Indian"
-                    ],
-                    "avgRating": 4.1,
-                    "parentId": "61",
-                    "avgRatingString": "4.1",
-                    "totalRatingsString": "10K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10479435~p=9~eid=0000018c-ed5c-80f1-4a4a-dc76001a095e~srvts=1704789311729~83645",
-                    "sla": {
-                        "deliveryTime": 18,
-                        "lastMileTravel": 0.9,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "18 mins",
-                        "lastMileTravelString": "0.9 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 23:59:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=241&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "34301",
+        "name": "Sri Udupi Park (100ft Road)",
+        "cloudinaryImageId": "jxp8y1chnqljwqylpkov",
+        "locality": "Defence Colony",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹100 for two",
+        "cuisines": [
+          "South Indian",
+          "North Indian",
+          "Chaat",
+          "Beverages",
+          "Chinese"
+        ],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "194697",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 24,
+          "lastMileTravel": 0.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "24 mins",
+          "lastMileTravelString": "0.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-16 22:30:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
             }
-        }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/sri-udupi-park-100ft-road-defence-colony-indiranagar-bangalore-34301",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "289261",
-                    "name": "BOX8 - Desi Meals",
-                    "cloudinaryImageId": "69a061b7e0f951cef2b4947946f94ec6",
-                    "locality": "New Thipasandra",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "North Indian",
-                        "Biryani",
-                        "Thalis",
-                        "Home Food"
-                    ],
-                    "avgRating": 4.5,
-                    "parentId": "10655",
-                    "avgRatingString": "4.5",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                        "deliveryTime": 14,
-                        "lastMileTravel": 0.8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "9-19 mins",
-                        "lastMileTravelString": "0.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-10 02:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
-                            {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "description": "",
-                                            "shortDescription": "options available",
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=289261&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
+      "info": {
+        "id": "752385",
+        "name": "Great Indian Khichdi by EatFit",
+        "cloudinaryImageId": "d00bd9d092e31d8e4355960b6d92046b",
+        "locality": "Hoysala Nagar",
+        "areaName": "Indira Nagar",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "Indian",
+          "Home Food",
+          "Healthy Food",
+          "Snacks"
+        ],
+        "avgRating": 4.4,
+        "veg": true,
+        "parentId": "319582",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "50+",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 0.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "26 mins",
+          "lastMileTravelString": "0.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-16 23:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹149"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "isNewlyOnboarded": true,
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/great-indian-khichdi-by-eatfit-hoysala-nagar-indira-nagar-bangalore-752385",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "15400",
-                    "name": "Paratha Plaza",
-                    "cloudinaryImageId": "skpxgzf48zl0q5myepkb",
-                    "locality": "2nd stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "North Indian"
-                    ],
-                    "avgRating": 4.5,
-                    "veg": true,
-                    "parentId": "2066",
-                    "avgRatingString": "4.5",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                        "deliveryTime": 17,
-                        "lastMileTravel": 0.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "17 mins",
-                        "lastMileTravelString": "0.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 15:30:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                "description": "pureveg"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                            "description": "pureveg"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=15400&source=collection&query=North%20Indian",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+      "info": {
+        "id": "280216",
+        "name": "Lavonne",
+        "cloudinaryImageId": "udzufnegmtvimdypnfbk",
+        "locality": "Indiranagar",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹1000 for two",
+        "cuisines": [
+          "Bakery",
+          "Desserts"
+        ],
+        "avgRating": 4.6,
+        "parentId": "10530",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 1.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30 mins",
+          "lastMileTravelString": "1.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-16 22:40:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+              "description": "OnlyOnSwiggy"
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
+            {
+              "imageId": "newg.png",
+              "description": "Gourmet"
             }
-        }
+          ],
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "OnlyOnSwiggy",
+                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                  }
+                },
+                {
+                  "attributes": {
+                    "description": "Gourmet",
+                    "imageId": "newg.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/lavonne-indiranagar-bangalore-280216",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "68145",
-                    "name": "WarmOven Cake & Desserts",
-                    "cloudinaryImageId": "e938fb5f416cc2c28b4b519cf27b04cc",
-                    "locality": "Kaggadasapura Main Rd",
-                    "areaName": "Kaggadasapura",
-                    "costForTwo": "₹200 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts",
-                        "Ice Cream",
-                        "Beverages"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "9696",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "5K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10483365~p=1~eid=0000018c-ed64-4741-4a8f-f9af001a011e~srvts=1704789821249~83656",
-                    "sla": {
-                        "deliveryTime": 40,
-                        "lastMileTravel": 5.9,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "40 mins",
-                        "lastMileTravelString": "5.9 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=68145&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "131114",
+        "name": "Andhra Gunpowder",
+        "cloudinaryImageId": "xnpuvvqfcxfttpwgvq6p",
+        "locality": "HAL 3rd stage",
+        "areaName": "Jeevanbhima Nagar",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Andhra",
+          "Biryani",
+          "South Indian"
+        ],
+        "avgRating": 4.4,
+        "parentId": "10496",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 2.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-17 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
             }
-        }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/andhra-gunpowder-hal-3rd-stage-jeevanbhima-nagar-bangalore-131114",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "457308",
-                    "name": "Bakingo",
-                    "cloudinaryImageId": "0c53fd8f62e3d25ba56d1b4cfe572cef",
-                    "locality": "New Thipasandra",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts",
-                        "Beverages",
-                        "Snacks"
-                    ],
-                    "avgRating": 4.4,
-                    "parentId": "3818",
-                    "avgRatingString": "4.4",
-                    "totalRatingsString": "1K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10441820~p=2~eid=0000018c-ed64-4741-4a8f-f9b0001a0258~srvts=1704789821249~83656",
-                    "sla": {
-                        "deliveryTime": 16,
-                        "lastMileTravel": 1.8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "16 mins",
-                        "lastMileTravelString": "1.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-10 01:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=457308&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
+      "info": {
+        "id": "372",
+        "name": "Moti's Kitchen",
+        "cloudinaryImageId": "lzwgnpg232glnlckaphz",
+        "locality": "New Thipasandra",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "Kerala",
+          "South Indian"
+        ],
+        "avgRating": 4.4,
+        "parentId": "20932",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 2.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "23 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-16 22:30:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/motis-kitchen-new-thipasandra-indiranagar-bangalore-372",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "5167",
-                    "name": "Theobroma",
-                    "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
-                    "locality": "2nd stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts",
-                        "Beverages"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "1040",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "10K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10499148~p=3~eid=0000018c-ed64-4741-4a8f-f9b1001a0319~srvts=1704789821249~83656",
-                    "sla": {
-                        "deliveryTime": 15,
-                        "lastMileTravel": 1.2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15 mins",
-                        "lastMileTravelString": "1.2 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 23:59:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "newg.png",
-                                            "description": "Gourmet"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=5167&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "490568",
-                    "name": "NOTO - Ice Creams & Desserts",
-                    "cloudinaryImageId": "81ac87e5c89c16adc867be38ce5a1ba3",
-                    "locality": "1st Stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "Desserts",
-                        "Ice Cream"
-                    ],
-                    "avgRating": 4.6,
-                    "veg": true,
-                    "parentId": "468478",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "500+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10452779~p=5~eid=0000018c-ed64-4741-4a8f-f9b3001a0511~srvts=1704789821249~83656",
-                    "sla": {
-                        "deliveryTime": 11,
-                        "lastMileTravel": 0.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "11 mins",
-                        "lastMileTravelString": "0.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-10 02:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
-                            {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "brand",
-                                "fontColor": "#7E808C"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": "",
-                                            "shortDescription": "brand"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=490568&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "537302",
-                    "name": "Cheesecake & Co.",
-                    "cloudinaryImageId": "b318c0b4bc2169550145ace1d6e791a2",
-                    "locality": "Doopanahallii",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts"
-                    ],
-                    "avgRating": 4.6,
-                    "veg": true,
-                    "parentId": "387417",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "500+",
-                    "promoted": true,
-                    "adTrackingId": "cid=10348122~p=10~eid=0000018c-ed64-4741-4a8f-f9b8001a0a06~srvts=1704789821249~83656",
-                    "sla": {
-                        "deliveryTime": 16,
-                        "lastMileTravel": 1.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "16 mins",
-                        "lastMileTravelString": "1.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-10 00:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
-                            },
-                            {
-                                "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                "description": "pureveg"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "newg.png",
-                                            "description": "Gourmet"
-                                        }
-                                    },
-                                    {
-                                        "attributes": {
-                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                            "description": "pureveg"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {},
-                            "textBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=537302&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "280216",
-                    "name": "Lavonne",
-                    "cloudinaryImageId": "udzufnegmtvimdypnfbk",
-                    "locality": "Indiranagar",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹1000 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "10530",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "5K+",
-                    "sla": {
-                        "deliveryTime": 19,
-                        "lastMileTravel": 1.7,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "19 mins",
-                        "lastMileTravelString": "1.7 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 22:40:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                                "description": "OnlyOnSwiggy"
-                            },
-                            {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
-                            }
-                        ],
-                        "textExtendedBadges": [
-                            {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                                            "description": "OnlyOnSwiggy"
-                                        }
-                                    },
-                                    {
-                                        "attributes": {
-                                            "imageId": "newg.png",
-                                            "description": "Gourmet"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": "",
-                                            "shortDescription": "options available"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=280216&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "208175",
-                    "name": "Milano Ice Cream",
-                    "cloudinaryImageId": "z5ftuzi4kgyfvknvghiz",
-                    "locality": "Indiranagar",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹200 for two",
-                    "cuisines": [
-                        "Ice Cream",
-                        "Desserts"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "20072",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "5K+",
-                    "sla": {
-                        "deliveryTime": 13,
-                        "lastMileTravel": 0.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "13 mins",
-                        "lastMileTravelString": "0.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 23:45:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
-                            {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "shortDescription": "options available",
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": ""
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=208175&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "17377",
-                    "name": "Glen's Bakehouse",
-                    "cloudinaryImageId": "xeb9pnx0vz6kaz4minjd",
-                    "locality": "2nd stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹500 for two",
-                    "cuisines": [
-                        "Desserts",
-                        "Bakery",
-                        "Beverages",
-                        "Continental",
-                        "Italian"
-                    ],
-                    "avgRating": 4.5,
-                    "parentId": "3220",
-                    "avgRatingString": "4.5",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                        "deliveryTime": 18,
-                        "lastMileTravel": 0.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "18 mins",
-                        "lastMileTravelString": "0.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-10 00:30:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "description": "Gourmet",
-                                            "imageId": "newg.png"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {},
-                            "textBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=17377&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "585078",
-                    "name": "Aubree",
-                    "cloudinaryImageId": "ef3aec85c38da87938b4e3c5a3028cd9",
-                    "locality": "1st Stage",
-                    "areaName": "Indiranagar",
-                    "costForTwo": "₹800 for two",
-                    "cuisines": [
-                        "Desserts",
-                        "Bakery"
-                    ],
-                    "avgRating": 4.3,
-                    "veg": true,
-                    "parentId": "3807",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "500+",
-                    "sla": {
-                        "deliveryTime": 12,
-                        "lastMileTravel": 0.5,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "12 mins",
-                        "lastMileTravelString": "0.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2024-01-09 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
-                            {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "newg.png",
-                                            "description": "Gourmet"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹120 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {}
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=585078&source=collection&query=Cakes",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
+      "info": {
+        "id": "48581",
+        "name": "Rotti Walla",
+        "cloudinaryImageId": "kvlaq1ugkoozqr741zrv",
+        "locality": "Appareddy Palya",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "North Indian",
+          "Chinese",
+          "Snacks",
+          "Beverages",
+          "Tandoor",
+          "South Indian"
+        ],
+        "avgRating": 4.1,
+        "parentId": "9541",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 27,
+          "lastMileTravel": 0.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "27 mins",
+          "lastMileTravelString": "0.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-01-17 03:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹120 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {
+        "context": "seo-data-98d748ae-b241-4646-9395-836cdb81dd2f"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/rotti-walla-appareddy-palya-indiranagar-bangalore-48581",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     }
-]
+  ]
 
 export default swiggyArray;

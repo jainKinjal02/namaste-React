@@ -2,8 +2,7 @@ import { CDN_URL } from "../utils/constants";
 
 const RestaurantCard = (props) => {
     const {resData} = props;
-
-    const {info} = resData.card.card;
+    const {info} = resData;
     return (
         <div className='res-card' style={{backgroundColor: "#f0f0f0"}}>
             <img className="res-logo" alt='Truffles' src={CDN_URL
